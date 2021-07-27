@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: rgb(10, 10, 10);
+    color: white;
+    background-image: url("laughing_image.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section {
+    min-height: 100vh;
+    width: 100%;
+    padding: 100px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 90%;
+    max-width: 500px;
+    margin: 0 auto;
+    background-image: linear-gradient(to right top, #c4d16b, #a0ca74, #80c17f, #64b689, #4eaa91, #4aac9a, #48afa3, #47b1ab, #4dc3bc, #53d5ce, #59e8df, #5ffbf1);
+    padding: 3rem;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container p {
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 3rem;
+    text-align: justify;
+}
+
+button {
+    margin-top: 4rem;
+    width: fit-content;
+    padding: 1rem;
+    font-size: 2rem;
+    background-color: rgb(240, 236, 233);
+    color: rgb(10, 10, 10);
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    align-self: flex-end;
+}
