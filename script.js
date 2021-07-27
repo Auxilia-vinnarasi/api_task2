@@ -1,6 +1,6 @@
-const button = document.querySelector(".container");
+const button = document.querySelector(".container button");
 const jokeText = document.querySelector(".container p");
-document.addEventListener("DOMcontentloaded", getJoke)
+document.addEventListener("DOMContentLoaded", getJoke)
 
 button.addEventListener("click", getJoke);
 
